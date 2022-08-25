@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    height: 15vh;
+    padding: 0 10vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: #73738D
+}
+
+.right {
+    height: 40%;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right nav a {
+    color: #73738D;
+}
+
+.try-it-for-free {
+    color: #1943EF;
+    border-radius: 33.9597px;
+    border: 1.03958px solid #1943EF;
+    width: 30%;
+    height: 100%;
+    background-color: #ffffff;
+}
