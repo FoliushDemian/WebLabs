@@ -1,0 +1,19 @@
+footer {
+    height: 30vh;
+}
+
+footer h3 {
+    color: #222222;
+    width: 20%;
+    margin-left: 44%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+footer p {
+    width: 40%;
+    text-align: center;
+    color: #73738D;
+    margin-top: 2%;
+    margin-left: 35%;
+}
