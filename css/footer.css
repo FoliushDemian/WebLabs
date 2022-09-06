@@ -17,3 +17,31 @@ footer p {
     margin-top: 2%;
     margin-left: 35%;
 }
+
+@media (max-width: 576px) {
+    footer {
+        margin-top: 15%;
+        margin-right: 90%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 993px) {
+    footer h3 {
+        font-size: calc(10px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+
+    footer p {
+        font-size: calc(5px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+}
+
+@media (max-width: 360px) {
+    footer h3 {
+        margin-left: 40%;;
+    }
+
+    footer p {
+        margin-left: 35%;
+    }
+}
